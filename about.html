@@ -24,7 +24,23 @@
     <p>
         All inventions are fictional and meant for entertainment purposes.
     </p>
+
+    <h2>Contact us</h2>
+    <p class="contact-text">Invented something useless or want something added just send us per mail </p>
+    <form class="contact-form" action="https://formsubmit.co/nabizada.useless@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_captcha" value="false">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Your Name" required />
+      <label for="email">E-Mail</label>
+      <input type="email" name="email" id="email" placeholder="Your E-Mail" required />
+      <label for="message">Text</label>
+      <textarea name="message" id="message" rows="4" placeholder="Your Text" required></textarea>
+      <label for="attachment">Uploud Data(optional)</label>
+      <input type="file" name="attachment" id="attachment" />
+      <button type="submit">Send</button>
+    </form>
 </div>
+    
 
 <footer class="bg-dark text-white text-center p-3">
     © 2026 – Museum of Useless Inventions
@@ -32,3 +48,4 @@
 
 </body>
 </html>
+
